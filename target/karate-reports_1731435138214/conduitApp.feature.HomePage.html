@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="stylesheet" href="res/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="res/karate-report.css" type="text/css"/>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <script type="text/javascript" src="res/jquery.min.js"></script>
+    <script type="text/javascript" src="res/jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="res/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="res/bootstrap.min.js"></script>
+    <script type="text/javascript" src="res/karate-report.js"></script>
+    <script type="text/javascript" src="res/Resemble.js"></script>
+    <script>
+!function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.async=!0,p.src=s.api_host+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="capture identify alias people.set people.set_once set_config register register_once unregister opt_out_capturing has_opted_out_capturing opt_in_capturing reset isFeatureEnabled onFeatureFlags".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
+posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
+  api_host:'https://app.posthog.com',
+  persistence:'localStorage',
+  autocapture:false,
+  capture_pageview:false,
+  api_transport:'sendBeacon',
+  loaded: function(posthog) { 
+    posthog.capture("report_feature",{distinct_id:"c224a090-ca11-4c60-917d-79e37558dc01",karate_version:"1.5.0",karate_meta:null});
+  }
+});
+</script>
+
+    <title>conduitApp.feature.HomePage</title>
+  </head>
+  <body>
+    <div id="root-container">
+      <div id="leftnav">
+        
+        <div>
+  <div class="nav-logo">
+    <a href="https://karatelabs.io">
+      <img src="karate-labs-logo-ring.svg" alt="Karate Labs"/>
+    </a>
+    <div class="nav-count">
+      <div id="nav-pass" class="bg-success">2</div>
+      <div id="nav-fail" class="bg-danger">0</div>
+    </div>
+  </div>
+  <div id="nav-env">
+    <div></div>
+  </div>
+  <div id="nav-type">
+    <div>Scenarios</div>
+  </div>
+  <div id="nav-date">
+    <div>2024-11-12 07:08:40 PM</div>
+  </div>
+</div>
+
+        <div class="nav-container">
+          <div class="nav-item passed">
+            <a href="#[1:6]"><span>[1:6]</span> <span>Get all tags</span></a>
+          </div>
+          <div class="nav-item passed">
+            <a href="#[2:16]"><span>[2:16]</span> <span>Get 10 articles from the page</span></a>
+          </div>
+        </div>
+      </div>
+      <div id="content">
+        <div class="page-heading alert alert-primary">
+          <a href="karate-summary.html">Summary</a><span class="feature-label">|</span>
+          <a href="karate-tags.html">Tags</a><span class="feature-label">|</span>
+          <span class="feature-label">Feature:</span>
+          <span class="feature-path">conduitApp/feature/HomePage.feature</span><span class="feature-label">|</span>
+          <span class="feature-name">Tests for the home page</span>
+          <span class="feature-description"></span>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1:6]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1:6]</span>
+                <span class="scenario-name">Get all tags</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>1066</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[1:6]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[1:6]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url &#39;https://conduit-api.bondaracademy.com/api/&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.4">19:08:39.727 karate.env system property was: null 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.7">
+      <div class="step-ref passed">7</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;tags&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.8">
+      <div class="step-ref passed">8</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method Get</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1014</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.8">19:08:40.190 request:
+1 &gt; GET https://conduit-api.bondaracademy.com/api/tags
+1 &gt; Host: conduit-api.bondaracademy.com
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/17)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+19:08:40.762 response time in milliseconds: 568
+1 &lt; 200
+1 &lt; x-powered-by: Express
+1 &lt; access-control-allow-origin: https://conduit.bondaracademy.com
+1 &lt; vary: Origin
+1 &lt; content-type: application/json; charset=utf-8
+1 &lt; etag: W/&quot;67-kNAlM0dhXzb/9Gx8gCpfzhwk68Q&quot;
+1 &lt; X-Cloud-Trace-Context: 11114245dddd216f07bcfd0d22a79b97
+1 &lt; Date: Tue, 12 Nov 2024 18:08:28 GMT
+1 &lt; Server: Google Frontend
+1 &lt; Content-Length: 103
+{&quot;tags&quot;:[&quot;Test&quot;,&quot;GitHub&quot;,&quot;Coding&quot;,&quot;Enroll&quot;,&quot;Git&quot;,&quot;Bondar Academy&quot;,&quot;qa career&quot;,&quot;Zoom&quot;,&quot;YouTube&quot;,&quot;Blog&quot;]}
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.9">
+      <div class="step-ref passed">9</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.10">
+      <div class="step-ref passed">10</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>match response.tags contains [&#39;Git&#39;,&#39;Test&#39;]</span>
+      </div>
+    </div>
+    <div class="time-cell passed">41</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.11">
+      <div class="step-ref passed">11</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>match response.tags !contains &#39;truck&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.12">
+      <div class="step-ref passed">12</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>match response.tags == &quot;#array&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.13">
+      <div class="step-ref passed">13</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>match each response.tags == &quot;#string&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">5</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[2:16]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                <a class="badge badge-primary" href="karate-tags.html">debug</a><a class="badge badge-primary" href="karate-tags.html">smoke</a>
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[2:16]</span>
+                <span class="scenario-name">Get 10 articles from the page</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>1117</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[2:16]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[2:16]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url &#39;https://conduit-api.bondaracademy.com/api/&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.4">19:08:39.727 karate.env system property was: null 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.17">
+      <div class="step-ref passed">17</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>param limit = 10</span>
+      </div>
+    </div>
+    <div class="time-cell passed">8</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.18">
+      <div class="step-ref passed">18</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>param offset = 0</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.19">
+      <div class="step-ref passed">19</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;articles&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.20">
+      <div class="step-ref passed">20</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method Get</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1099</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.20">19:08:40.191 request:
+1 &gt; GET https://conduit-api.bondaracademy.com/api/articles?limit=10&amp;offset=0
+1 &gt; Host: conduit-api.bondaracademy.com
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/17)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+19:08:40.882 response time in milliseconds: 681
+1 &lt; 200
+1 &lt; x-powered-by: Express
+1 &lt; access-control-allow-origin: https://conduit.bondaracademy.com
+1 &lt; vary: Origin
+1 &lt; content-type: application/json; charset=utf-8
+1 &lt; etag: W/&quot;43a5-Z9993XrnTwG3DRMEYoimlNbrbOc&quot;
+1 &lt; X-Cloud-Trace-Context: 5e0b4240ce1e72be4a4894c05a97bddc
+1 &lt; Date: Tue, 12 Nov 2024 18:08:28 GMT
+1 &lt; Server: Google Frontend
+1 &lt; Content-Length: 17317
+{&quot;articles&quot;:[{&quot;slug&quot;:&quot;Discover-Bondar-Academy:-Your-Gateway-to-Efficient-Learning-1&quot;,&quot;title&quot;:&quot;Discover Bondar Academy: Your Gateway to Efficient Learning&quot;,&quot;description&quot;:&quot;Discover Bondar Academy&#39;s unique place in the educational landscape, where value-focused and efficient learning approaches converge. Our goal is to rapidly enhance your professional technical skills, boosting your market competitiveness and paving the way for higher-paying job opportunities. The speed of your progress is in your hands – you set the pace, and we provide the solutions and support to help you achieve your desired outcomes.&quot;,&quot;body&quot;:&quot;Bondar Academy is a leading platform for efficient education, designed to boost your technical skills and advance your career in Quality Assurance (QA). Our program features a balanced mix of pre-recorded lectures and live sessions, allowing each student to study at their own pace and at a time that suits them. \n\nOur instructors are readily available on our Slack Workspace for support. Whether it&#39;s a quick question or a more complex issue requiring a Zoom call or Slack Huddle for screen sharing and live discussion, we&#39;re here to assist. Additionally, each class comes with a comprehensive question bank for self-assessment. Following each lecture, you have the opportunity to validate your understanding and readiness to progress to the next topic. You set the pace, and we provide the solutions to ensure you achieve your desired outcomes.\n\nSignUp today: https://www.bondaracademy.com&quot;,&quot;tagList&quot;:[&quot;qa career&quot;,&quot;Bondar Academy&quot;,&quot;QA Skills&quot;,&quot;Value-Focused&quot;],&quot;createdAt&quot;:&quot;2024-01-27T21:52:32.682Z&quot;,&quot;updatedAt&quot;:&quot;2024-01-27T21:52:32.682Z&quot;,&quot;favorited&quot;:false,&quot;favoritesCount&quot;:368,&quot;author&quot;:{&quot;username&quot;:&quot;Artem Bondar&quot;,&quot;bio&quot;:null,&quot;image&quot;:&quot;https://storage.googleapis.com/bondar-academy-visuals/Android.png&quot;,&quot;following&quot;:false}},{&quot;slug&quot;:&quot;The-value-of-pre-recorded-video-classes.-The-most-efficient-approach-to-tranfer-the-knowledge-1&quot;,&quot;title&quot;:&quot;The value of pre-recorded video classes. The most efficient approach to tranfer the knowledge&quot;,&quot;description&quot;:&quot;As educational practices evolve, video tutorials have emerged as the most efficient method for imparting theoretical knowledge. At Bondar Academy, we prioritize expertly structured and crafted video tutorials, ensuring you learn quickly and effectively and advance your skills.&quot;,&quot;body&quot;:&quot;At Bondar Academy, we prioritize the value of your time and the efficiency of your education, distinguishing our approach from traditional colleges and live boot camps. Forget long, tedious live lectures on a fixed schedule. With us, you learn at your convenience and pace through optimized, structured video lectures. \n\nWe understand your goal is rapid knowledge acquisition. Our pre-recorded and well-organized lectures are designed precisely for this, ensuring no slowdowns from group dynamics or unrelated instructor anecdotes. \n\nDive straight into the subject matter, learn efficiently, and if questions arise, our immediate support on the Slack Workspace is there to streamline your learning process and swiftly remove any roadblocks.&quot;,&quot;tagList&quot;:[&quot;Bondar Academy&quot;,&quot;Video Lectures&quot;,&quot;Tutorials&quot;],&quot;createdAt&quot;:&quot;2024-01-27T21:50:38.825Z&quot;,&quot;updatedAt&quot;:&quot;2024-01-27T21:50:38.825Z&quot;,&quot;favorited&quot;:false,&quot;favoritesCount&quot;:160,&quot;author&quot;:{&quot;username&quot;:&quot;Artem Bondar&quot;,&quot;bio&quot;:null,&quot;image&quot;:&quot;https://storage.googleapis.com/bondar-academy-visuals/Android.png&quot;,&quot;following&quot;:false}},{&quot;slug&quot;:&quot;Mastering-Knowledge-with-Self-Assessments:-Identifying-and-Bridging-Learning-Gaps-in-Education-1&quot;,&quot;title&quot;:&quot;Mastering Knowledge with Self-Assessments: Identifying and Bridging Learning Gaps in Education&quot;,&quot;description&quot;:&quot;Self-assessment is an essential tool for gauging your understanding of lecture material. It answers critical questions: Have you grasped everything correctly? Is there anything you&#39;ve missed? Are you prepared for the next lesson? These assessments ensure that you build a solid foundation of knowledge, confidently and efficiently paving the way for swift progress and effective learning outcomes.&quot;,&quot;body&quot;:&quot;Traditional educational institutions, such as colleges and universities, commonly use tests and assessments to measure knowledge. This approach is effective for gauging student performance, but it&#39;s not without drawbacks. In these settings, assessments after every lecture aren&#39;t feasible due to the time required for teachers to evaluate them. This often leads to students having a false sense of understanding, believing they&#39;ve comprehended all aspects of a lecture when, in reality, small but crucial details might be missed. These &#39;knowledge gaps&#39; can accumulate, making more complex topics difficult to grasp later on.\n\nAt Bondar Academy, we address this challenge by implementing self-assessments after every lecture. These are designed to cover key questions that ensure a thorough understanding of the material, essential for comfort and success in future lectures. The number of questions varies, ranging from 3-4 to 15-20, depending on the lecture&#39;s significance and the volume of critical information. With these self-assessments, students receive immediate feedback, helping them determine if they&#39;ve fully understood the lecture or if they need to revisit certain parts or seek assistance from our instructors in the Slack Workspace.&quot;,&quot;tagList&quot;:[&quot;Self-Assessment&quot;,&quot;Test&quot;,&quot;Exam&quot;],&quot;createdAt&quot;:&quot;2024-01-27T21:48:36.340Z&quot;,&quot;updatedAt&quot;:&quot;2024-01-27T21:48:36.340Z&quot;,&quot;favorited&quot;:false,&quot;favoritesCount&quot;:28,&quot;author&quot;:{&quot;username&quot;:&quot;Artem Bondar&quot;,&quot;bio&quot;:null,&quot;image&quot;:&quot;https://storage.googleapis.com/bondar-academy-visuals/Android.png&quot;,&quot;following&quot;:false}},{&quot;slug&quot;:&quot;Practical-Implementation-of-Skills:-Homework-Assignments-with-Instructor-Supervision-1&quot;,&quot;title&quot;:&quot;Practical Implementation of Skills: Homework Assignments with Instructor Supervision&quot;,&quot;description&quot;:&quot;Knowledge or skills not reinforced through practical exercises can quickly fade, often faster than anticipated. Homework, particularly in tasks like writing your own code, is crucial for honing these skills and cementing your understanding. At Bondar Academy, we ensure this vital step by assigning homework, rigorously evaluating the outcomes, and providing valuable feedback to guide your learning journey.&quot;,&quot;body&quot;:&quot;Homework assignments are a fundamental component of the educational methodology at Bondar Academy, especially in technical education where learning a new programming language or framework is involved. The key to mastering these skills lies in writing code; the more you write, the better you become. However, merely replicating code seen in lectures leads to minimal learning. Often, this approach leaves students unclear about why their code works the way it does, as they focus on copying rather than understanding.\n\nA homework assignment at Bondar Academy starts with a blank page, challenging students to apply all their knowledge to write the first line of code. This process is more demanding than it appears. As you write each line, understanding and reasoning grow, making your code meaningful and comprehensible. You learn to write code that makes sense to you, enhancing your understanding.\n\nIn completing these assignments, you engage the &#39;thinking&#39; part of your brain, transforming theoretical knowledge into practical skills. Recognizing the crucial role of homework in learning, our instructors at Bondar Academy are always available to assist with any challenges. Just reach out on Slack, and you&#39;ll receive the guidance and support needed for successful completion. At Bondar Academy, we fully understand the importance of homework assignments for the best outcome, so our instructors are always here to assist if you have any difficulties with completing them. Just ask in Slack and you&#39;ll be guided and assisted.&quot;,&quot;tagList&quot;:[&quot;Homework&quot;,&quot;Assignments&quot;,&quot;Practice&quot;,&quot;Coding&quot;],&quot;createdAt&quot;:&quot;2024-01-27T21:46:09.512Z&quot;,&quot;updatedAt&quot;:&quot;2024-01-27T21:46:09.512Z&quot;,&quot;favorited&quot;:false,&quot;favoritesCount&quot;:15,&quot;author&quot;:{&quot;username&quot;:&quot;Artem Bondar&quot;,&quot;bio&quot;:null,&quot;image&quot;:&quot;https://storage.googleapis.com/bondar-academy-visuals/Android.png&quot;,&quot;following&quot;:false}},{&quot;slug&quot;:&quot;Embracing-Daily-Git-Routines:-Real-Code-Reviews-on-GitHub-for-Effective-Coding-Practice.-1&quot;,&quot;title&quot;:&quot;Embracing Daily Git Routines: Real Code Reviews on GitHub for Effective Coding Practice.&quot;,&quot;description&quot;:&quot;Learning to code is just one part of a larger skill set; effectively managing and organizing code is equally crucial. At Bondar Academy, we integrate Git and platforms like GitHub into the core learning cycle. With us, using Git becomes a regular routine, where organizing code in branches, storing it in remote repositories, and collaborating with others through strategies like branching, merging, pull requests, and code reviews are standard practice.&quot;,&quot;body&quot;:&quot;At Bondar Academy, mastering Git and GitHub is a fundamental step before delving into frameworks or programming languages. Effective code management, organization, and storage are crucial skills, and Git is the premier tool for this purpose. However, many learners initially find Git challenging due to its complexity and non-intuitive nature. To address this, our instructors have developed structured lectures on Git and GitHub, ensuring an efficient and thorough understanding of these essential tools. Git lessons are a mandatory prerequisite in every class. For a glimpse into our teaching approach, visit our YouTube channel: https://www.youtube.com/@BondarAcademy/playlists.\n\nIn our courses, all homework assignments are reviewed using GitHub pull requests, mirroring the workflow in real-world software development environments. Students submit their code to their working branch for review. Our instructors then provide feedback, suggesting modifications or adjustments for pull request approval. This iterative process is repeated throughout the course, establishing Git usage as a natural and routine part of your coding practice.&quot;,&quot;tagList&quot;:[&quot;YouTube&quot;,&quot;Git&quot;,&quot;GitHub&quot;],&quot;createdAt&quot;:&quot;2024-01-27T21:42:31.491Z&quot;,&quot;updatedAt&quot;:&quot;2024-01-27T21:42:31.491Z&quot;,&quot;favorited&quot;:false,&quot;favoritesCount&quot;:13,&quot;author&quot;:{&quot;username&quot;:&quot;Artem Bondar&quot;,&quot;bio&quot;:null,&quot;image&quot;:&quot;https://storage.googleapis.com/bondar-academy-visuals/Android.png&quot;,&quot;following&quot;:false}},{&quot;slug&quot;:&quot;Engaging-in-Live-Zoom-Sessions:-Interact-with-Instructors-and-Peers-Ask-Questions-in-Real-Time-1&quot;,&quot;title&quot;:&quot;Engaging in Live Zoom Sessions: Interact with Instructors and Peers, Ask Questions in Real-Time&quot;,&quot;description&quot;:&quot;In our increasingly online world, personal engagement remains a crucial element of effective learning. At Bondar Academy, we address this by hosting live Zoom sessions. These sessions provide a platform for live interaction between instructors and students, and among students themselves. Complementing our Slack channel, these live sessions offer an additional avenue for asking questions and engaging in meaningful discussions.&quot;,&quot;body&quot;:&quot;In our increasingly online world, personal engagement remains a crucial element of effective learning. \nAt Bondar Academy, we address this by hosting live Zoom sessions. These sessions provide a platform for live interaction between instructors and students and among students themselves. Complementing our Slack channel, these live sessions offer an additional avenue for asking questions and engaging in meaningful discussions.&quot;,&quot;tagList&quot;:[&quot;Zoom&quot;,&quot;Live Sessions&quot;],&quot;createdAt&quot;:&quot;2024-01-27T21:39:50.587Z&quot;,&quot;updatedAt&quot;:&quot;2024-01-27T21:39:50.587Z&quot;,&quot;favorited&quot;:false,&quot;favoritesCount&quot;:10,&quot;author&quot;:{&quot;username&quot;:&quot;Artem Bondar&quot;,&quot;bio&quot;:null,&quot;image&quot;:&quot;https://storage.googleapis.com/bondar-academy-visuals/Android.png&quot;,&quot;following&quot;:false}},{&quot;slug&quot;:&quot;Utilizing-Slack-for-Continuous-Engagement:-Connect-with-Instructors-Share-Insights-and-Collaborate-1&quot;,&quot;title&quot;:&quot;Utilizing Slack for Continuous Engagement: Connect with Instructors, Share Insights, and Collaborate&quot;,&quot;description&quot;:&quot;Slack stands out as a widely-used messaging and collaboration platform, celebrated for its convenience and versatility. It enables simultaneous participation in multiple conversations, supports comments and emoji reactions, and allows users to share screenshots, videos, and code snippets. Its functionality extends to making calls in huddle sessions. Given these robust features, Bondar Academy has chosen Slack as our primary communication platform, facilitating seamless interaction and collaboration.&quot;,&quot;body&quot;:&quot;As a new member of Bondar Academy, one of your initial steps should be registering for the Bondar Academy Slack Workspace. Upon registration at Bondar Academy, you&#39;ll receive a welcome email containing the URL to join. This Workspace serves as a central hub for communication with instructors and fellow students. Whether you have a question, need to share code, or want to upload screenshots, Slack makes it easy and efficient. Moreover, its compatibility with both desktop and mobile devices, by downloading and installing the app, ensures you can stay connected with your instructors and the community wherever you go.&quot;,&quot;tagList&quot;:[&quot;Slack&quot;,&quot;Community&quot;,&quot;Collaboration&quot;],&quot;createdAt&quot;:&quot;2024-01-27T21:38:27.992Z&quot;,&quot;updatedAt&quot;:&quot;2024-01-27T21:38:27.992Z&quot;,&quot;favorited&quot;:false,&quot;favoritesCount&quot;:10,&quot;author&quot;:{&quot;username&quot;:&quot;Artem Bondar&quot;,&quot;bio&quot;:null,&quot;image&quot;:&quot;https://storage.googleapis.com/bondar-academy-visuals/Android.png&quot;,&quot;following&quot;:false}},{&quot;slug&quot;:&quot;Stay-Ahead-with-Bondar-Academy:-Subscribe-to-Our-YouTube-channel-for-Latest-Tech-and-Education-Updates-1&quot;,&quot;title&quot;:&quot;Stay Ahead with Bondar Academy: Subscribe to Our YouTube channel for Latest Tech and Education Updates&quot;,&quot;description&quot;:&quot;Who doesn&#39;t appreciate high-quality free resources? YouTube serves as an ideal platform for sharing the latest news, updates, and a wealth of tips and tricks in test automation and technology. Keep abreast of these invaluable insights by subscribing to the @bondaracademy YouTube channel.&quot;,&quot;body&quot;:&quot;Who doesn&#39;t appreciate high-quality free resources? \n\nYouTube serves as an ideal platform for sharing the latest news, updates, and a wealth of tips and tricks in test automation and technology. \n\nKeep abreast of these invaluable insights by subscribing to our YouTube channel: https://www.youtube.com/@bondaracademy&quot;,&quot;tagList&quot;:[&quot;YouTube&quot;],&quot;createdAt&quot;:&quot;2024-01-27T21:36:32.360Z&quot;,&quot;updatedAt&quot;:&quot;2024-01-27T21:36:32.360Z&quot;,&quot;favorited&quot;:false,&quot;favoritesCount&quot;:10,&quot;author&quot;:{&quot;username&quot;:&quot;Artem Bondar&quot;,&quot;bio&quot;:null,&quot;image&quot;:&quot;https://storage.googleapis.com/bondar-academy-visuals/Android.png&quot;,&quot;following&quot;:false}},{&quot;slug&quot;:&quot;Explore-the-Latest-in-Learning:-Bondar-Academy-Blog&#39;s-Educational-Insights-from-Our-Experts-1&quot;,&quot;title&quot;:&quot;Explore the Latest in Learning: Bondar Academy Blog&#39;s Educational Insights from Our Experts&quot;,&quot;description&quot;:&quot;Discover a treasure trove of knowledge on the Bondar Academy blog. Here, we share an array of tips, techniques, and valuable educational materials, all designed to keep you abreast of the latest technological trends and best practices. For easy access and continual learning, consider bookmarking our blog in your browser.&quot;,&quot;body&quot;:&quot;On the Bondar Academy blog, we consistently provide insightful and pertinent updates on the latest in technology, test automation, and industry best practices. For your convenience, we recommend adding our blog to your browser&#39;s bookmarks. Our commitment to keeping you informed is reflected in our weekly posts, each focusing on a significant topic of the week.\n\nWe value your input and invite you to contribute to our ever-evolving content. If you have any suggestions or specific topics you&#39;d like us to explore, please feel free to share your ideas in the Bondar Academy Slack workspace. \n\nDiscover our blog here: https://www.bondaracademy.com/blog\n&quot;,&quot;tagList&quot;:[&quot;Blog&quot;],&quot;createdAt&quot;:&quot;2024-01-27T21:34:04.531Z&quot;,&quot;updatedAt&quot;:&quot;2024-01-27T21:34:04.531Z&quot;,&quot;favorited&quot;:false,&quot;favoritesCount&quot;:12,&quot;author&quot;:{&quot;username&quot;:&quot;Artem Bondar&quot;,&quot;bio&quot;:null,&quot;image&quot;:&quot;https://storage.googleapis.com/bondar-academy-visuals/Android.png&quot;,&quot;following&quot;:false}},{&quot;slug&quot;:&quot;Take-the-Next-Step:-Join-Bondar-Academy-Today-and-Enroll-into-the-class-1&quot;,&quot;title&quot;:&quot;Take the Next Step: Join Bondar Academy Today and Enroll into the class&quot;,&quot;description&quot;:&quot;Are you prepared to transform your educational journey? Begin by signing up at Bondar Academy, then register for our Slack Workspace to start exploring. We offer a range of classes, with some being completely free and others featuring free previews of the initial sections. This allows you to experience our content and teaching approach firsthand, helping you make an informed decision before enrolling in a class.&quot;,&quot;body&quot;:&quot;Are you prepared to transform your educational journey? \n\nBegin by signing up at Bondar Academy, then register for our Slack Workspace to start exploring. We offer a range of classes, with some being completely free and others featuring free previews of the initial sections. This allows you to experience our content and teaching approach firsthand, helping you make an informed decision before enrolling in a class.\n\nClick here to enroll: https://www.bondaracademy.com&quot;,&quot;tagList&quot;:[&quot;Enroll&quot;,&quot;Start for Free&quot;],&quot;createdAt&quot;:&quot;2024-01-27T21:32:21.056Z&quot;,&quot;updatedAt&quot;:&quot;2024-01-27T21:32:21.056Z&quot;,&quot;favorited&quot;:false,&quot;favoritesCount&quot;:13,&quot;author&quot;:{&quot;username&quot;:&quot;Artem Bondar&quot;,&quot;bio&quot;:null,&quot;image&quot;:&quot;https://storage.googleapis.com/bondar-academy-visuals/Android.png&quot;,&quot;following&quot;:false}}],&quot;articlesCount&quot;:10}
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.21">
+      <div class="step-ref passed">21</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.22">
+      <div class="step-ref passed">22</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>match response.articles == &#39;#[10]&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">6</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.23">
+      <div class="step-ref passed">23</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>match response.articlesCount == 10</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+

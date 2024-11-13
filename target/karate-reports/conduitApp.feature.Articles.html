@@ -1,0 +1,1490 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="stylesheet" href="res/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="res/karate-report.css" type="text/css"/>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <script type="text/javascript" src="res/jquery.min.js"></script>
+    <script type="text/javascript" src="res/jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="res/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="res/bootstrap.min.js"></script>
+    <script type="text/javascript" src="res/karate-report.js"></script>
+    <script type="text/javascript" src="res/Resemble.js"></script>
+    <script>
+!function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.async=!0,p.src=s.api_host+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="capture identify alias people.set people.set_once set_config register register_once unregister opt_out_capturing has_opted_out_capturing opt_in_capturing reset isFeatureEnabled onFeatureFlags".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
+posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
+  api_host:'https://app.posthog.com',
+  persistence:'localStorage',
+  autocapture:false,
+  capture_pageview:false,
+  api_transport:'sendBeacon',
+  loaded: function(posthog) { 
+    posthog.capture("report_feature",{distinct_id:"c224a090-ca11-4c60-917d-79e37558dc01",karate_version:"1.5.0",karate_meta:null});
+  }
+});
+</script>
+
+    <title>conduitApp.feature.Articles</title>
+  </head>
+  <body>
+    <div id="root-container">
+      <div id="leftnav">
+        
+        <div>
+  <div class="nav-logo">
+    <a href="https://karatelabs.io">
+      <img src="karate-labs-logo-ring.svg" alt="Karate Labs"/>
+    </a>
+    <div class="nav-count">
+      <div id="nav-pass" class="bg-success">2</div>
+      <div id="nav-fail" class="bg-danger">0</div>
+    </div>
+  </div>
+  <div id="nav-env">
+    <div></div>
+  </div>
+  <div id="nav-type">
+    <div>Scenarios</div>
+  </div>
+  <div id="nav-date">
+    <div>2024-11-13 06:26:57 PM</div>
+  </div>
+</div>
+
+        <div class="nav-container">
+          <div class="nav-item passed">
+            <a href="#[1:15]"><span>[1:15]</span> <span>Create a new article</span></a>
+          </div>
+          <div class="nav-item passed">
+            <a href="#[2:24]"><span>[2:24]</span> <span>Create and delete article</span></a>
+          </div>
+        </div>
+      </div>
+      <div id="content">
+        <div class="page-heading alert alert-primary">
+          <a href="karate-summary.html">Summary</a><span class="feature-label">|</span>
+          <a href="karate-tags.html">Tags</a><span class="feature-label">|</span>
+          <span class="feature-label">Feature:</span>
+          <span class="feature-path">conduitApp/feature/Articles.feature</span><span class="feature-label">|</span>
+          <span class="feature-name">Articles</span>
+          <span class="feature-description"></span>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1:15]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                <a class="badge badge-primary" href="karate-tags.html">debug</a>
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1:15]</span>
+                <span class="scenario-name">Create a new article</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>545</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[1:15]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[1:15]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url apiUrl</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.5">18:26:55.305 karate.env system property was: null 
+18:26:56.100 this thread waited 788 milliseconds for callSingle lock: classpath:helpers/CreateToken.feature
+</div>   
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:15]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.6">
+      <div class="step-ref bg-step">6</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def articleRequestBody = read(&#39;classpath:conduitApp/json/newArticleRequest.json&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">5</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:15]bg"><div>
+  
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment"># * def tokenResponse = callonce read(&#39;classpath:helpers/CreateToken.feature&#39;)</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment"># * def token = tokenResponse.authToken</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container" id="0.9">
+      <div class="step-ref bg-step">9</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def dataGenerator = Java.type(&#39;helpers.DataGenerator&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">7</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:15]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.10">
+      <div class="step-ref bg-step">10</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>set articleRequestBody.article.title = dataGenerator.getRandomArticleValues().title</span>
+      </div>
+    </div>
+    <div class="time-cell passed">165</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:15]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.11">
+      <div class="step-ref bg-step">11</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>set articleRequestBody.article.description = dataGenerator.getRandomArticleValues().description</span>
+      </div>
+    </div>
+    <div class="time-cell passed">30</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:15]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.12">
+      <div class="step-ref bg-step">12</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>set articleRequestBody.article.body = dataGenerator.getRandomArticleValues().body</span>
+      </div>
+    </div>
+    <div class="time-cell passed">29</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment">#Given header Authorization = &#39;Token &#39; + token</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container" id="0.17">
+      <div class="step-ref passed">17</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;articles&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.18">
+      <div class="step-ref passed">18</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request articleRequestBody</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.19">
+      <div class="step-ref passed">19</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method Post</span>
+      </div>
+    </div>
+    <div class="time-cell passed">294</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.19">18:26:56.348 request:
+1 &gt; POST https://conduit-api.bondaracademy.com/api/articles
+1 &gt; Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoxMjk5OH0sImlhdCI6MTczMTUxODgwMywiZXhwIjoxNzM2NzAyODAzfQ.ZL16uPzW6oZteyzVdedszqbjblZ8iLr_PWm-ES2F0vg
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 156
+1 &gt; Host: conduit-api.bondaracademy.com
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/17)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;article&quot;:{&quot;title&quot;:&quot;Eustace&quot;,&quot;description&quot;:&quot;Myr&quot;,&quot;body&quot;:&quot;Some old wounds never truly heal, and bleed again at the slightest word.&quot;,&quot;tagList&quot;:[&quot;dddfsqdf&quot;]}}
+
+18:26:56.638 response time in milliseconds: 289
+1 &lt; 201
+1 &lt; x-powered-by: Express
+1 &lt; access-control-allow-origin: https://conduit.bondaracademy.com
+1 &lt; vary: Origin
+1 &lt; content-type: application/json; charset=utf-8
+1 &lt; etag: W/&quot;1ad-u+wuX5ht7Ide6615Yct/S9sSyAQ&quot;
+1 &lt; X-Cloud-Trace-Context: c9ec89895d0c61aa47206320bd1b16b3
+1 &lt; Date: Wed, 13 Nov 2024 17:26:43 GMT
+1 &lt; Server: Google Frontend
+1 &lt; Content-Length: 429
+{&quot;article&quot;:{&quot;slug&quot;:&quot;Eustace-12998&quot;,&quot;title&quot;:&quot;Eustace&quot;,&quot;description&quot;:&quot;Myr&quot;,&quot;body&quot;:&quot;Some old wounds never truly heal, and bleed again at the slightest word.&quot;,&quot;tagList&quot;:[&quot;dddfsqdf&quot;],&quot;createdAt&quot;:&quot;2024-11-13T17:26:43.598Z&quot;,&quot;updatedAt&quot;:&quot;2024-11-13T17:26:43.598Z&quot;,&quot;favorited&quot;:false,&quot;favoritesCount&quot;:0,&quot;author&quot;:{&quot;username&quot;:&quot;dinesh90&quot;,&quot;bio&quot;:null,&quot;image&quot;:&quot;https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg&quot;,&quot;following&quot;:false}}}
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.20">
+      <div class="step-ref passed">20</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 201</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.21">
+      <div class="step-ref passed">21</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>match response.article.title == articleRequestBody.article.title</span>
+      </div>
+    </div>
+    <div class="time-cell passed">14</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[2:24]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                <a class="badge badge-primary" href="karate-tags.html">debug</a>
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[2:24]</span>
+                <span class="scenario-name">Create and delete article</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>1350</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[2:24]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[2:24]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url apiUrl</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.5">18:26:56.099 &lt;&lt; lock released, cached callSingle: classpath:helpers/CreateToken.feature
+</div>   
+
+  <div>
+        
+    <div class="step-row">
+      <div class="step-container" id="0.5.0.call">
+        <div class="step-ref bg-step">&gt;&gt;</div>
+        <div class="step-indent"></div>
+        <div class="step-cell passed">helpers.CreateToken</div>
+      </div>
+      <div class="time-cell passed">747</div>
+    </div>
+    <div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.5.0.call">
+    <div class="step-container" id="0.5.0.call.0.5">
+      <div class="step-ref bg-step">5</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url apiUrl</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.5.0.call.0.5">18:26:55.305 karate.env system property was: null 
+18:26:55.311 &gt;&gt; lock acquired, begin callSingle: classpath:helpers/CreateToken.feature
+</div>   
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.5.0.call">
+    <div class="step-container" id="0.5.0.call.0.6">
+      <div class="step-ref bg-step">6</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;users/login&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.5.0.call">
+    <div class="step-container" id="0.5.0.call.0.7">
+      <div class="step-ref bg-step">7</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request {&quot;user&quot;: {&quot;email&quot;: &quot;#(userEmail)&quot;, &quot;password&quot;: &quot;#(userPassword)&quot;}}</span>
+      </div>
+    </div>
+    <div class="time-cell passed">37</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.5.0.call">
+    <div class="step-container" id="0.5.0.call.0.8">
+      <div class="step-ref bg-step">8</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method Post</span>
+      </div>
+    </div>
+    <div class="time-cell passed">705</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.5.0.call.0.8">18:26:55.648 request:
+1 &gt; POST https://conduit-api.bondaracademy.com/api/users/login
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 61
+1 &gt; Host: conduit-api.bondaracademy.com
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/17)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;user&quot;:{&quot;email&quot;:&quot;dinesh@test.com&quot;,&quot;password&quot;:&quot;dinesh12345&quot;}}
+
+18:26:56.093 response time in milliseconds: 442
+1 &lt; 200
+1 &lt; x-powered-by: Express
+1 &lt; access-control-allow-origin: https://conduit.bondaracademy.com
+1 &lt; vary: Origin
+1 &lt; content-type: application/json; charset=utf-8
+1 &lt; etag: W/&quot;134-HUVLAo8BmaLj6s+nmkmm23Y90FM&quot;
+1 &lt; X-Cloud-Trace-Context: 9cf860bbbc083745f8d5b66c07111c30;o=1
+1 &lt; Date: Wed, 13 Nov 2024 17:26:43 GMT
+1 &lt; Server: Google Frontend
+1 &lt; Content-Length: 308
+{&quot;user&quot;:{&quot;email&quot;:&quot;dinesh@test.com&quot;,&quot;username&quot;:&quot;dinesh90&quot;,&quot;bio&quot;:null,&quot;image&quot;:&quot;https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg&quot;,&quot;token&quot;:&quot;eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoxMjk5OH0sImlhdCI6MTczMTUxODgwMywiZXhwIjoxNzM2NzAyODAzfQ.ZL16uPzW6oZteyzVdedszqbjblZ8iLr_PWm-ES2F0vg&quot;}}
+
+</div>   
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.5.0.call">
+    <div class="step-container" id="0.5.0.call.0.9">
+      <div class="step-ref bg-step">9</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.5.0.call">
+    <div class="step-container" id="0.5.0.call.0.10">
+      <div class="step-ref bg-step">10</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def authToken = response.user.token</span>
+      </div>
+    </div>
+    <div class="time-cell passed">3</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+    </div>    
+  </div>
+
+</div>
+</div>
+          <div data-parent="[2:24]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.6">
+      <div class="step-ref bg-step">6</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def articleRequestBody = read(&#39;classpath:conduitApp/json/newArticleRequest.json&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">5</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[2:24]bg"><div>
+  
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment"># * def tokenResponse = callonce read(&#39;classpath:helpers/CreateToken.feature&#39;)</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment"># * def token = tokenResponse.authToken</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container" id="0.9">
+      <div class="step-ref bg-step">9</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def dataGenerator = Java.type(&#39;helpers.DataGenerator&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">7</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[2:24]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.10">
+      <div class="step-ref bg-step">10</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>set articleRequestBody.article.title = dataGenerator.getRandomArticleValues().title</span>
+      </div>
+    </div>
+    <div class="time-cell passed">165</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[2:24]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.11">
+      <div class="step-ref bg-step">11</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>set articleRequestBody.article.description = dataGenerator.getRandomArticleValues().description</span>
+      </div>
+    </div>
+    <div class="time-cell passed">30</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[2:24]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.12">
+      <div class="step-ref bg-step">12</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>set articleRequestBody.article.body = dataGenerator.getRandomArticleValues().body</span>
+      </div>
+    </div>
+    <div class="time-cell passed">26</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment">#Given header Authorization = &#39;Token &#39; + token</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container" id="0.26">
+      <div class="step-ref passed">26</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;articles&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.27">
+      <div class="step-ref passed">27</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request articleRequestBody</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.28">
+      <div class="step-ref passed">28</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method Post</span>
+      </div>
+    </div>
+    <div class="time-cell passed">296</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.28">18:26:56.345 request:
+1 &gt; POST https://conduit-api.bondaracademy.com/api/articles
+1 &gt; Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoxMjk5OH0sImlhdCI6MTczMTUxODgwMywiZXhwIjoxNzM2NzAyODAzfQ.ZL16uPzW6oZteyzVdedszqbjblZ8iLr_PWm-ES2F0vg
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 182
+1 &gt; Host: conduit-api.bondaracademy.com
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/17)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;article&quot;:{&quot;title&quot;:&quot;Noho Dimittis&quot;,&quot;description&quot;:&quot;Mantarys&quot;,&quot;body&quot;:&quot;When the snows fall and the white winds blow, the lone wolf dies but the pack survives.&quot;,&quot;tagList&quot;:[&quot;dddfsqdf&quot;]}}
+
+18:26:56.638 response time in milliseconds: 292
+1 &lt; 201
+1 &lt; x-powered-by: Express
+1 &lt; access-control-allow-origin: https://conduit.bondaracademy.com
+1 &lt; vary: Origin
+1 &lt; content-type: application/json; charset=utf-8
+1 &lt; etag: W/&quot;1cd-TwyB6Hq7/V8MvUnazSj+9cuF/CM&quot;
+1 &lt; X-Cloud-Trace-Context: 5833b0addc85769ef862f734d7fa02f8
+1 &lt; Date: Wed, 13 Nov 2024 17:26:43 GMT
+1 &lt; Server: Google Frontend
+1 &lt; Content-Length: 461
+{&quot;article&quot;:{&quot;slug&quot;:&quot;Noho-Dimittis-12998&quot;,&quot;title&quot;:&quot;Noho Dimittis&quot;,&quot;description&quot;:&quot;Mantarys&quot;,&quot;body&quot;:&quot;When the snows fall and the white winds blow, the lone wolf dies but the pack survives.&quot;,&quot;tagList&quot;:[&quot;dddfsqdf&quot;],&quot;createdAt&quot;:&quot;2024-11-13T17:26:43.591Z&quot;,&quot;updatedAt&quot;:&quot;2024-11-13T17:26:43.591Z&quot;,&quot;favorited&quot;:false,&quot;favoritesCount&quot;:0,&quot;author&quot;:{&quot;username&quot;:&quot;dinesh90&quot;,&quot;bio&quot;:null,&quot;image&quot;:&quot;https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg&quot;,&quot;following&quot;:false}}}
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.29">
+      <div class="step-ref passed">29</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 201</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.30">
+      <div class="step-ref passed">30</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def articleId = response.article.slug</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.32">
+      <div class="step-ref passed">32</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>param limit = 10</span>
+      </div>
+    </div>
+    <div class="time-cell passed">5</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.33">
+      <div class="step-ref passed">33</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>param offset = 0</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.34">
+      <div class="step-ref passed">34</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;articles&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.35">
+      <div class="step-ref passed">35</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method Get</span>
+      </div>
+    </div>
+    <div class="time-cell passed">314</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.35">18:26:56.651 request:
+2 &gt; GET https://conduit-api.bondaracademy.com/api/articles?limit=10&amp;offset=0
+2 &gt; Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoxMjk5OH0sImlhdCI6MTczMTUxODgwMywiZXhwIjoxNzM2NzAyODAzfQ.ZL16uPzW6oZteyzVdedszqbjblZ8iLr_PWm-ES2F0vg
+2 &gt; Host: conduit-api.bondaracademy.com
+2 &gt; Connection: Keep-Alive
+2 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/17)
+2 &gt; Accept-Encoding: gzip,deflate
+
+
+18:26:56.960 response time in milliseconds: 307
+2 &lt; 200
+2 &lt; x-powered-by: Express
+2 &lt; access-control-allow-origin: https://conduit.bondaracademy.com
+2 &lt; vary: Origin
+2 &lt; content-type: application/json; charset=utf-8
+2 &lt; etag: W/&quot;1076-uk2fkv/qCw/LP5B1x2ICPyl/Ay0&quot;
+2 &lt; X-Cloud-Trace-Context: a9c101638795000b26bee9a22d47ba11
+2 &lt; Date: Wed, 13 Nov 2024 17:26:44 GMT
+2 &lt; Server: Google Frontend
+2 &lt; Content-Length: 4214
+{&quot;articles&quot;:[{&quot;slug&quot;:&quot;Eustace-12998&quot;,&quot;title&quot;:&quot;Eustace&quot;,&quot;description&quot;:&quot;Myr&quot;,&quot;body&quot;:&quot;Some old wounds never truly heal, and bleed again at the slightest word.&quot;,&quot;tagList&quot;:[&quot;dddfsqdf&quot;],&quot;createdAt&quot;:&quot;2024-11-13T17:26:43.598Z&quot;,&quot;updatedAt&quot;:&quot;2024-11-13T17:26:43.598Z&quot;,&quot;favorited&quot;:false,&quot;favoritesCount&quot;:0,&quot;author&quot;:{&quot;username&quot;:&quot;dinesh90&quot;,&quot;bio&quot;:null,&quot;image&quot;:&quot;https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg&quot;,&quot;following&quot;:false}},{&quot;slug&quot;:&quot;Noho-Dimittis-12998&quot;,&quot;title&quot;:&quot;Noho Dimittis&quot;,&quot;description&quot;:&quot;Mantarys&quot;,&quot;body&quot;:&quot;When the snows fall and the white winds blow, the lone wolf dies but the pack survives.&quot;,&quot;tagList&quot;:[&quot;dddfsqdf&quot;],&quot;createdAt&quot;:&quot;2024-11-13T17:26:43.591Z&quot;,&quot;updatedAt&quot;:&quot;2024-11-13T17:26:43.591Z&quot;,&quot;favorited&quot;:false,&quot;favoritesCount&quot;:0,&quot;author&quot;:{&quot;username&quot;:&quot;dinesh90&quot;,&quot;bio&quot;:null,&quot;image&quot;:&quot;https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg&quot;,&quot;following&quot;:false}},{&quot;slug&quot;:&quot;Black-Balaq-12998&quot;,&quot;title&quot;:&quot;Black Balaq&quot;,&quot;description&quot;:&quot;Braavos&quot;,&quot;body&quot;:&quot;A lion doesn&#39;t concern itself with the opinion of sheep.&quot;,&quot;tagList&quot;:[&quot;dddfsqdf&quot;],&quot;createdAt&quot;:&quot;2024-11-13T17:26:07.547Z&quot;,&quot;updatedAt&quot;:&quot;2024-11-13T17:26:07.547Z&quot;,&quot;favorited&quot;:false,&quot;favoritesCount&quot;:0,&quot;author&quot;:{&quot;username&quot;:&quot;dinesh90&quot;,&quot;bio&quot;:null,&quot;image&quot;:&quot;https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg&quot;,&quot;following&quot;:false}},{&quot;slug&quot;:&quot;Colemon-12998&quot;,&quot;title&quot;:&quot;Colemon&quot;,&quot;description&quot;:&quot;Meereen&quot;,&quot;body&quot;:&quot;... a mind needs books as a sword needs a whetstone, if it is to keep its edge.&quot;,&quot;tagList&quot;:[&quot;dddfsqdf&quot;],&quot;createdAt&quot;:&quot;2024-11-13T17:17:07.553Z&quot;,&quot;updatedAt&quot;:&quot;2024-11-13T17:17:07.553Z&quot;,&quot;favorited&quot;:false,&quot;favoritesCount&quot;:0,&quot;author&quot;:{&quot;username&quot;:&quot;dinesh90&quot;,&quot;bio&quot;:null,&quot;image&quot;:&quot;https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg&quot;,&quot;following&quot;:false}},{&quot;slug&quot;:&quot;Othor-12998&quot;,&quot;title&quot;:&quot;Othor&quot;,&quot;description&quot;:&quot;White Harbor&quot;,&quot;body&quot;:&quot;When the snows fall and the white winds blow, the lone wolf dies but the pack survives.&quot;,&quot;tagList&quot;:[&quot;dddfsqdf&quot;],&quot;createdAt&quot;:&quot;2024-11-13T17:17:07.527Z&quot;,&quot;updatedAt&quot;:&quot;2024-11-13T17:17:07.527Z&quot;,&quot;favorited&quot;:false,&quot;favoritesCount&quot;:0,&quot;author&quot;:{&quot;username&quot;:&quot;dinesh90&quot;,&quot;bio&quot;:null,&quot;image&quot;:&quot;https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg&quot;,&quot;following&quot;:false}},{&quot;slug&quot;:&quot;Rattleshirt-12998&quot;,&quot;title&quot;:&quot;Rattleshirt&quot;,&quot;description&quot;:&quot;Sar Meel&quot;,&quot;body&quot;:&quot;The things I do for love.&quot;,&quot;tagList&quot;:[&quot;dddfsqdf&quot;],&quot;createdAt&quot;:&quot;2024-11-13T17:16:07.104Z&quot;,&quot;updatedAt&quot;:&quot;2024-11-13T17:16:07.104Z&quot;,&quot;favorited&quot;:false,&quot;favoritesCount&quot;:0,&quot;author&quot;:{&quot;username&quot;:&quot;dinesh90&quot;,&quot;bio&quot;:null,&quot;image&quot;:&quot;https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg&quot;,&quot;following&quot;:false}},{&quot;slug&quot;:&quot;Nestor-Royce-12998&quot;,&quot;title&quot;:&quot;Nestor Royce&quot;,&quot;description&quot;:&quot;Ny Sar&quot;,&quot;body&quot;:&quot;When you play a game of thrones you win or you die.&quot;,&quot;tagList&quot;:[&quot;dddfsqdf&quot;],&quot;createdAt&quot;:&quot;2024-11-13T17:16:07.094Z&quot;,&quot;updatedAt&quot;:&quot;2024-11-13T17:16:07.094Z&quot;,&quot;favorited&quot;:false,&quot;favoritesCount&quot;:0,&quot;author&quot;:{&quot;username&quot;:&quot;dinesh90&quot;,&quot;bio&quot;:null,&quot;image&quot;:&quot;https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg&quot;,&quot;following&quot;:false}},{&quot;slug&quot;:&quot;Rafe-12998&quot;,&quot;title&quot;:&quot;Rafe&quot;,&quot;description&quot;:&quot;Qarth&quot;,&quot;body&quot;:&quot;Some old wounds never truly heal, and bleed again at the slightest word.&quot;,&quot;tagList&quot;:[&quot;dddfsqdf&quot;],&quot;createdAt&quot;:&quot;2024-11-13T17:14:09.834Z&quot;,&quot;updatedAt&quot;:&quot;2024-11-13T17:14:09.834Z&quot;,&quot;favorited&quot;:false,&quot;favoritesCount&quot;:0,&quot;author&quot;:{&quot;username&quot;:&quot;dinesh90&quot;,&quot;bio&quot;:null,&quot;image&quot;:&quot;https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg&quot;,&quot;following&quot;:false}},{&quot;slug&quot;:&quot;Daeron-II-Targaryen-12998&quot;,&quot;title&quot;:&quot;Daeron II Targaryen&quot;,&quot;description&quot;:&quot;Lannisport&quot;,&quot;body&quot;:&quot;When you play a game of thrones you win or you die.&quot;,&quot;tagList&quot;:[&quot;dddfsqdf&quot;],&quot;createdAt&quot;:&quot;2024-11-13T17:14:09.820Z&quot;,&quot;updatedAt&quot;:&quot;2024-11-13T17:14:09.820Z&quot;,&quot;favorited&quot;:false,&quot;favoritesCount&quot;:0,&quot;author&quot;:{&quot;username&quot;:&quot;dinesh90&quot;,&quot;bio&quot;:null,&quot;image&quot;:&quot;https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg&quot;,&quot;following&quot;:false}},{&quot;slug&quot;:&quot;Byron-12998&quot;,&quot;title&quot;:&quot;Byron&quot;,&quot;description&quot;:&quot;Asshai&quot;,&quot;body&quot;:&quot;Summer will end soon enough, and childhood as well.&quot;,&quot;tagList&quot;:[&quot;dddfsqdf&quot;],&quot;createdAt&quot;:&quot;2024-11-13T17:13:12.874Z&quot;,&quot;updatedAt&quot;:&quot;2024-11-13T17:13:12.874Z&quot;,&quot;favorited&quot;:false,&quot;favoritesCount&quot;:0,&quot;author&quot;:{&quot;username&quot;:&quot;dinesh90&quot;,&quot;bio&quot;:null,&quot;image&quot;:&quot;https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg&quot;,&quot;following&quot;:false}}],&quot;articlesCount&quot;:37}
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.36">
+      <div class="step-ref passed">36</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment">#And match response.articles[*].title == articleRequestBody.article.title</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment">#Given header Authorization = &#39;Token &#39; + token</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container" id="0.40">
+      <div class="step-ref passed">40</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;articles&#39;,articleId</span>
+      </div>
+    </div>
+    <div class="time-cell passed">9</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.41">
+      <div class="step-ref passed">41</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method Delete</span>
+      </div>
+    </div>
+    <div class="time-cell passed">192</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.41">18:26:56.971 request:
+3 &gt; DELETE https://conduit-api.bondaracademy.com/api/articles/Noho-Dimittis-12998
+3 &gt; Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoxMjk5OH0sImlhdCI6MTczMTUxODgwMywiZXhwIjoxNzM2NzAyODAzfQ.ZL16uPzW6oZteyzVdedszqbjblZ8iLr_PWm-ES2F0vg
+3 &gt; Host: conduit-api.bondaracademy.com
+3 &gt; Connection: Keep-Alive
+3 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/17)
+3 &gt; Accept-Encoding: gzip,deflate
+
+
+18:26:57.161 response time in milliseconds: 189
+3 &lt; 204
+3 &lt; x-powered-by: Express
+3 &lt; access-control-allow-origin: https://conduit.bondaracademy.com
+3 &lt; vary: Origin
+3 &lt; etag: W/&quot;a-bAsFyilMr4Ra1hIU5PyoyFRunpI&quot;
+3 &lt; X-Cloud-Trace-Context: 6d5a0897f87563fe20b96d4c3ee5ce7f
+3 &lt; Date: Wed, 13 Nov 2024 17:26:44 GMT
+3 &lt; Content-Type: text/html
+3 &lt; Server: Google Frontend
+3 &lt; Content-Length: 0
+
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.42">
+      <div class="step-ref passed">42</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 204</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.44">
+      <div class="step-ref passed">44</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>param limit = 10</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.45">
+      <div class="step-ref passed">45</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>param offset = 0</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.46">
+      <div class="step-ref passed">46</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;articles&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.47">
+      <div class="step-ref passed">47</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method Get</span>
+      </div>
+    </div>
+    <div class="time-cell passed">297</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.47">18:26:57.164 request:
+4 &gt; GET https://conduit-api.bondaracademy.com/api/articles?limit=10&amp;offset=0
+4 &gt; Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoxMjk5OH0sImlhdCI6MTczMTUxODgwMywiZXhwIjoxNzM2NzAyODAzfQ.ZL16uPzW6oZteyzVdedszqbjblZ8iLr_PWm-ES2F0vg
+4 &gt; Host: conduit-api.bondaracademy.com
+4 &gt; Connection: Keep-Alive
+4 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/17)
+4 &gt; Accept-Encoding: gzip,deflate
+
+
+18:26:57.459 response time in milliseconds: 294
+4 &lt; 200
+4 &lt; x-powered-by: Express
+4 &lt; access-control-allow-origin: https://conduit.bondaracademy.com
+4 &lt; vary: Origin
+4 &lt; content-type: application/json; charset=utf-8
+4 &lt; etag: W/&quot;1074-nsXH/fkYKX46Chwvo/RFRKMV4Vw&quot;
+4 &lt; X-Cloud-Trace-Context: 0ff47837eeedd9af629dc688713e31d7
+4 &lt; Date: Wed, 13 Nov 2024 17:26:44 GMT
+4 &lt; Server: Google Frontend
+4 &lt; Content-Length: 4212
+{&quot;articles&quot;:[{&quot;slug&quot;:&quot;Eustace-12998&quot;,&quot;title&quot;:&quot;Eustace&quot;,&quot;description&quot;:&quot;Myr&quot;,&quot;body&quot;:&quot;Some old wounds never truly heal, and bleed again at the slightest word.&quot;,&quot;tagList&quot;:[&quot;dddfsqdf&quot;],&quot;createdAt&quot;:&quot;2024-11-13T17:26:43.598Z&quot;,&quot;updatedAt&quot;:&quot;2024-11-13T17:26:43.598Z&quot;,&quot;favorited&quot;:false,&quot;favoritesCount&quot;:0,&quot;author&quot;:{&quot;username&quot;:&quot;dinesh90&quot;,&quot;bio&quot;:null,&quot;image&quot;:&quot;https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg&quot;,&quot;following&quot;:false}},{&quot;slug&quot;:&quot;Black-Balaq-12998&quot;,&quot;title&quot;:&quot;Black Balaq&quot;,&quot;description&quot;:&quot;Braavos&quot;,&quot;body&quot;:&quot;A lion doesn&#39;t concern itself with the opinion of sheep.&quot;,&quot;tagList&quot;:[&quot;dddfsqdf&quot;],&quot;createdAt&quot;:&quot;2024-11-13T17:26:07.547Z&quot;,&quot;updatedAt&quot;:&quot;2024-11-13T17:26:07.547Z&quot;,&quot;favorited&quot;:false,&quot;favoritesCount&quot;:0,&quot;author&quot;:{&quot;username&quot;:&quot;dinesh90&quot;,&quot;bio&quot;:null,&quot;image&quot;:&quot;https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg&quot;,&quot;following&quot;:false}},{&quot;slug&quot;:&quot;Colemon-12998&quot;,&quot;title&quot;:&quot;Colemon&quot;,&quot;description&quot;:&quot;Meereen&quot;,&quot;body&quot;:&quot;... a mind needs books as a sword needs a whetstone, if it is to keep its edge.&quot;,&quot;tagList&quot;:[&quot;dddfsqdf&quot;],&quot;createdAt&quot;:&quot;2024-11-13T17:17:07.553Z&quot;,&quot;updatedAt&quot;:&quot;2024-11-13T17:17:07.553Z&quot;,&quot;favorited&quot;:false,&quot;favoritesCount&quot;:0,&quot;author&quot;:{&quot;username&quot;:&quot;dinesh90&quot;,&quot;bio&quot;:null,&quot;image&quot;:&quot;https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg&quot;,&quot;following&quot;:false}},{&quot;slug&quot;:&quot;Othor-12998&quot;,&quot;title&quot;:&quot;Othor&quot;,&quot;description&quot;:&quot;White Harbor&quot;,&quot;body&quot;:&quot;When the snows fall and the white winds blow, the lone wolf dies but the pack survives.&quot;,&quot;tagList&quot;:[&quot;dddfsqdf&quot;],&quot;createdAt&quot;:&quot;2024-11-13T17:17:07.527Z&quot;,&quot;updatedAt&quot;:&quot;2024-11-13T17:17:07.527Z&quot;,&quot;favorited&quot;:false,&quot;favoritesCount&quot;:0,&quot;author&quot;:{&quot;username&quot;:&quot;dinesh90&quot;,&quot;bio&quot;:null,&quot;image&quot;:&quot;https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg&quot;,&quot;following&quot;:false}},{&quot;slug&quot;:&quot;Rattleshirt-12998&quot;,&quot;title&quot;:&quot;Rattleshirt&quot;,&quot;description&quot;:&quot;Sar Meel&quot;,&quot;body&quot;:&quot;The things I do for love.&quot;,&quot;tagList&quot;:[&quot;dddfsqdf&quot;],&quot;createdAt&quot;:&quot;2024-11-13T17:16:07.104Z&quot;,&quot;updatedAt&quot;:&quot;2024-11-13T17:16:07.104Z&quot;,&quot;favorited&quot;:false,&quot;favoritesCount&quot;:0,&quot;author&quot;:{&quot;username&quot;:&quot;dinesh90&quot;,&quot;bio&quot;:null,&quot;image&quot;:&quot;https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg&quot;,&quot;following&quot;:false}},{&quot;slug&quot;:&quot;Nestor-Royce-12998&quot;,&quot;title&quot;:&quot;Nestor Royce&quot;,&quot;description&quot;:&quot;Ny Sar&quot;,&quot;body&quot;:&quot;When you play a game of thrones you win or you die.&quot;,&quot;tagList&quot;:[&quot;dddfsqdf&quot;],&quot;createdAt&quot;:&quot;2024-11-13T17:16:07.094Z&quot;,&quot;updatedAt&quot;:&quot;2024-11-13T17:16:07.094Z&quot;,&quot;favorited&quot;:false,&quot;favoritesCount&quot;:0,&quot;author&quot;:{&quot;username&quot;:&quot;dinesh90&quot;,&quot;bio&quot;:null,&quot;image&quot;:&quot;https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg&quot;,&quot;following&quot;:false}},{&quot;slug&quot;:&quot;Rafe-12998&quot;,&quot;title&quot;:&quot;Rafe&quot;,&quot;description&quot;:&quot;Qarth&quot;,&quot;body&quot;:&quot;Some old wounds never truly heal, and bleed again at the slightest word.&quot;,&quot;tagList&quot;:[&quot;dddfsqdf&quot;],&quot;createdAt&quot;:&quot;2024-11-13T17:14:09.834Z&quot;,&quot;updatedAt&quot;:&quot;2024-11-13T17:14:09.834Z&quot;,&quot;favorited&quot;:false,&quot;favoritesCount&quot;:0,&quot;author&quot;:{&quot;username&quot;:&quot;dinesh90&quot;,&quot;bio&quot;:null,&quot;image&quot;:&quot;https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg&quot;,&quot;following&quot;:false}},{&quot;slug&quot;:&quot;Daeron-II-Targaryen-12998&quot;,&quot;title&quot;:&quot;Daeron II Targaryen&quot;,&quot;description&quot;:&quot;Lannisport&quot;,&quot;body&quot;:&quot;When you play a game of thrones you win or you die.&quot;,&quot;tagList&quot;:[&quot;dddfsqdf&quot;],&quot;createdAt&quot;:&quot;2024-11-13T17:14:09.820Z&quot;,&quot;updatedAt&quot;:&quot;2024-11-13T17:14:09.820Z&quot;,&quot;favorited&quot;:false,&quot;favoritesCount&quot;:0,&quot;author&quot;:{&quot;username&quot;:&quot;dinesh90&quot;,&quot;bio&quot;:null,&quot;image&quot;:&quot;https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg&quot;,&quot;following&quot;:false}},{&quot;slug&quot;:&quot;Byron-12998&quot;,&quot;title&quot;:&quot;Byron&quot;,&quot;description&quot;:&quot;Asshai&quot;,&quot;body&quot;:&quot;Summer will end soon enough, and childhood as well.&quot;,&quot;tagList&quot;:[&quot;dddfsqdf&quot;],&quot;createdAt&quot;:&quot;2024-11-13T17:13:12.874Z&quot;,&quot;updatedAt&quot;:&quot;2024-11-13T17:13:12.874Z&quot;,&quot;favorited&quot;:false,&quot;favoritesCount&quot;:0,&quot;author&quot;:{&quot;username&quot;:&quot;dinesh90&quot;,&quot;bio&quot;:null,&quot;image&quot;:&quot;https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg&quot;,&quot;following&quot;:false}},{&quot;slug&quot;:&quot;Mathos-Mallarawan-12998&quot;,&quot;title&quot;:&quot;Mathos Mallarawan&quot;,&quot;description&quot;:&quot;Asshai&quot;,&quot;body&quot;:&quot;... a mind needs books as a sword needs a whetstone, if it is to keep its edge.&quot;,&quot;tagList&quot;:[&quot;dddfsqdf&quot;],&quot;createdAt&quot;:&quot;2024-11-13T17:13:12.870Z&quot;,&quot;updatedAt&quot;:&quot;2024-11-13T17:13:12.870Z&quot;,&quot;favorited&quot;:false,&quot;favoritesCount&quot;:0,&quot;author&quot;:{&quot;username&quot;:&quot;dinesh90&quot;,&quot;bio&quot;:null,&quot;image&quot;:&quot;https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg&quot;,&quot;following&quot;:false}}],&quot;articlesCount&quot;:36}
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.48">
+      <div class="step-ref passed">48</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
